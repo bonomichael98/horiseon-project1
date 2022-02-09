@@ -24,3 +24,5 @@ Comments were added to better explain changes.
 
 Selectors were consolidated to reduce lines of code.
 
+![screenshot1](/horiseon-project1/assets/images/shot1.png)
+![screenshot2](/horiseon-project1/assets/images/shot2.png)
