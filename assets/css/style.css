@@ -6,41 +6,8 @@
     color: #ffffff;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-}
-
-/*added a border to multiple images and boxes*/
 .bordered {
     border: 5px solid #555;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
@@ -50,6 +17,43 @@ a {
 p {
     font-size: 16px;
 }
+/*end of general rules*/
+
+/*start of header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*end of header*/
+
+/*start of body*/
+body {
+    background-color: #d9dcd6;
+}
+
 /*start of hero*/
 .hero {
     height: 800px;
@@ -59,8 +63,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*end of hero*/
 
-.content {
+/*start of content*/
+content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -117,9 +123,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*end of content*/
 
-/*placed images an boxes in the order they appear on the page*/
-
+/*start of benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,9 +137,6 @@ p {
     background-color: #2589bd;
     border: 5px solid #555;
 }
-
-/*changed names of corresponding classes to be more easy to identify*/
-/* benefits were consolidated into one class */
 
 .benefits-boxes {
     margin-bottom: 32px;
@@ -149,7 +152,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*end of hero*/
+/*end of benefits*/
+
+/*start of footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -162,7 +167,8 @@ footer h2 {
     font-size: 20px;
 }
 
-/*added a text color specifically for the footer*/
 .dark-text {
     color: black;
 }
+/*end of footer*/
+/*end of body*/
