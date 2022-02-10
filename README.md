@@ -24,3 +24,5 @@ Comments were added to better explain changes.
 
 Selectors were consolidated to reduce lines of code.
 
+![screenshot1](https://i.imgur.com/LSadrFI.png)
+![screenshot2](https://i.imgur.com/uie2jUT.png)
